@@ -2,16 +2,15 @@ services:
     ubuntu:
         public: true
         container_name: tzchz
-        image: imlala/ubuntu-xfce-vnc-novnc:latest
+        image: accetto/ubuntu-vnc-xfce:latest
         ports:
             - 6080:6080
         environment: 
-            - VNC_PASSWD=freerdp
+            - VNC_PASSWD=vnc
             - GEOMETRY=1280x720
             - TZ=America/Costa_Rica
             - DEPTH=24
         volumes: 
-            - /root/Desktop
             - /home
         resources:
           cpu: 1000m
