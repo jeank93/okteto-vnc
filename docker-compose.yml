@@ -4,7 +4,7 @@ services:
         container_name: tzchz
         image: accetto/ubuntu-vnc-xfce-g3:latest
         ports:
-            - 6080:6080
+            - 6901:6901
         environment: 
             - VNC_PASSWD=vnc
             - GEOMETRY=1280x720
