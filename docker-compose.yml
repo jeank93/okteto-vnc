@@ -2,7 +2,7 @@ services:
     ubuntu:
         public: true
         container_name: tzchz
-        image: accetto/ubuntu-vnc-xfce:latest
+        image: accetto/ubuntu-vnc-xfce-g3:latest
         ports:
             - 6080:6080
         environment: 
@@ -11,6 +11,7 @@ services:
             - TZ=America/Costa_Rica
             - DEPTH=24
         volumes: 
+            - /root/Desktop
             - /home
         resources:
           cpu: 1000m
