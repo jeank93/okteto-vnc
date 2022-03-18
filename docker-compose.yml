@@ -19,6 +19,3 @@ services:
           storage:
             size: 1Gi
             class: standard
-        build: 
-            context: '.'
-            dockerfile: Dockerfile
