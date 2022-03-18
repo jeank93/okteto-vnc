@@ -7,7 +7,7 @@ services:
             - 6080:6080
         environment: 
             - VNC_PASSWD=freerdp
-            - GEOMETRY=1280x768
+            - GEOMETRY=1280x720
             - TZ=Asia/Shanghai
             - DEPTH=24
         volumes: 
