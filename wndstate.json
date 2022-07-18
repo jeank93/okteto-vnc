@@ -1,0 +1,29 @@
+{
+    "token_id": "nkyl5ijq",
+    "token": "2676607e051d5b6970ef668d58c780ee3396a4610d5e4f0d",
+    "token_signature": "cf4cfcbcb52ba6fa43d61b809155b63f6eab98ea",
+    "token_signature_time": "1657581702",
+    "loc_hash": "a49706e38643e62f7b6c7d825e432600e477f5f8",
+    "loc_rev": 24533,
+    "is_premium": false,
+    "status": 1,
+    "user_id": "pa9yxowt",
+    "session_auth_hash": "152349691:2:1657581703:48538045e7de3d3d096561911a3fbcac5420584543:a782531b18a4e3b9c32f17ca0a88b54b0d3704b923",
+    "proxy_username": "pa9yxowt-a2nj9r3",
+    "proxy_password": "96gzrfb2mh",
+    "settings": {
+        "client_auth_secret": "952b4412f002315aa50751032fcaab03",
+        "platform": "chrome",
+        "type": "chrome",
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36",
+        "origin": "chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb",
+        "session_type": 2,
+        "endpoints": {
+            "RegisterToken": "https://api.windscribe.com/RegToken",
+            "Users": "https://api.windscribe.com/Users",
+            "serverlist": "https://assets.windscribe.com/serverlist",
+            "ServerCredentials": "https://api.windscribe.com/ServerCredentials",
+            "BestLocation": "https://api.windscribe.com/BestLocation"
+        }
+    }
+}
